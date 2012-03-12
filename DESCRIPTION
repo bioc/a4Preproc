@@ -7,7 +7,6 @@ Author: Willem Talloen, Tobias Verbeke
 Maintainer: Tobias Verbeke <tobias.verbeke@openanalytics.eu>
 Description: Automated Affymetrix Array Analysis Preprocessing Package 
 Depends: methods, AnnotationDbi
-Imports: BiocGenerics
 Suggests: ALL, hgu95av2.db
 biocViews: Bioinformatics, Microarray
 License: GPL-3
