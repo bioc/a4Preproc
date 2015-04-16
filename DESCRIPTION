@@ -1,7 +1,7 @@
 Package: a4Preproc
 Type: Package
 Title: Automated Affymetrix Array Analysis Preprocessing Package
-Version: 1.16.0
+Version: 1.17.0
 Date: 2011-04-07
 Author: Willem Talloen, Tobias Verbeke
 Maintainer: Tobias Verbeke <tobias.verbeke@openanalytics.eu>, Willem
