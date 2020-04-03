@@ -1,11 +1,11 @@
 Package: a4Preproc
 Type: Package
 Title: Automated Affymetrix Array Analysis Preprocessing Package
-Version: 1.35.0
-Date: 2011-04-07
+Version: 1.35.1
+Date: 2020-04-03
 Author: Willem Talloen, Tobias Verbeke
-Maintainer: Tobias Verbeke <tobias.verbeke@openanalytics.eu>, Willem
-        Ligtenberg <willem.ligtenberg@openanalytics.eu>
+Maintainer: Tobias Verbeke <tobias.verbeke@openanalytics.eu>,
+  Laure Cougnaud <laure.cougnaud@openanalytics.eu>
 Description: Automated Affymetrix Array Analysis Preprocessing Package
 Depends: methods, AnnotationDbi
 Suggests: ALL, hgu95av2.db
