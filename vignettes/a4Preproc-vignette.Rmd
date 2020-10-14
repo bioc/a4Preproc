@@ -1,0 +1,50 @@
+---
+title: "Vignette of the a4Preproc package"
+date: "`r Sys.Date()`"
+output: 
+  rmarkdown::html_document:
+    toc: true
+    toc_float:
+      collapsed: true
+    number_sections: true
+vignette: >
+  %\VignetteIndexEntry{a4Preproc package}
+  %\VignetteEngine{knitr::rmarkdown}
+  \usepackage[utf8]{inputenc}
+---
+
+# Introduction
+
+This document explains the functionalities available in the
+**a4Preproc** package.
+
+
+This package contains utility functions to pre-process data for the Automated Affymetrix Array Analysis 
+suite of packages.
+
+```{r loadLibraries, results = 'hide', echo = FALSE}
+
+	library(a4Preproc)
+
+```
+
+# Get feature annotation for an ExpressionSet
+
+The feature annotation for a specific dataset, as required by the pipeline
+is extracted with the `addGeneInfo` function.
+
+```{r addGeneInfo, message = FALSE}
+library(ALL)
+data(ALL)
+a4ALL <- addGeneInfo(eset = ALL)
+print(head(fData(a4ALL)))
+print(head(featureData(a4ALL)))
+```
+
+# Appendix
+
+## Session information
+
+```{r sessionInformation, echo = FALSE}
+print(sessionInfo())
+```
